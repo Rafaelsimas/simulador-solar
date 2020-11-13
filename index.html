@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <h1>Simulador Solar</h1>
+         
+         <input type="text" id="txtCep" placeholder="CEP">
+        <input type="text" id="txtCidade" placeholder="Cidade">
+        <input type="text" id="txtEstado" placeholder="Estado">
+        <input type="text" id="txtBairro" placeholder="Bairro">
+        <input type="text" id="txtRua" placeholder="Rua">
+        <input type="text" id="txtComplemento" placeholder="Complemento">
+        Valor do seu consumo de energia<input type="text" placeholder="EX:200,00" id="simulador">
+            <button onclick="simula()">Simular meu gerador</button><br>
+            <div id="root"></div>
+        </div>
+    </div>
+   <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/simulator.js"></script>
+</body>
+</html>
